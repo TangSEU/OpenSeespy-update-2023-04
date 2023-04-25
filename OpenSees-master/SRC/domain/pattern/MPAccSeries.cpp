@@ -53,9 +53,9 @@ void *OPS_MPAccSeries(void)
 
     int tag = 0;      // default tag = 0
     double dData[6];
-    dData[3] = 0.0;   // default AFactor = 0.0
-    dData[4] = 0.0;   // default gammaMP = 0.0
-    dData[5] = 1.0;   // default nuMP = 1.0
+    dData[3] = 0.0;   // default gammaMP = 0.0
+    dData[4] = 0.0;   // default nuMP = 0.0
+    dData[5] = 1.0;   // default AFactor = 1.0
     int numData = 0;
 
     // get tag if provided
